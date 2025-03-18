@@ -14,7 +14,7 @@ import com.example.registerusingmvvm.viewmodel.AuthenticationViewModel
 @Composable
 fun AppNav(modifier: Modifier = Modifier) {
     val navController = rememberNavController()
-    val navigationHelper = AppNavigation(navController)  // ✅ Correct usage
+    val navigationHelper = AppNavigation(navController) 
 
     NavHost(
         navController = navController,
